@@ -21,15 +21,11 @@ MAS Pipeline for Vitisgen3 project. It uses the rhAmpseq genotyping data to pred
    ## contents of the config file ##
    #
    # FAMILY_PATH: ./
-   # # pathway for each family - I usually put the yaml in the same directory as th
-   e hapgeno
+   # # pathway for each family - keep the yaml in the same directory as the hap_genotype file generated from the amplicon.py script.
    #
-   # MARKER_TRAIT_PATH: /local/workdir/chengzou/2023/01.MAS/00.all_trait_key
-   # #                                     ^ this is where Cheng's most up to date
-   rules are
+   # MARKER_TRAIT_PATH: all_trait_key   ## this is the directory with the prediction rules for each QTL
    #
-   # MARKER_TRAIT_FILE: # list of traits for MAS - naming here needs to match file
-   names in trait key directory
+   # MARKER_TRAIT_FILE: # list of traits for MAS - naming here needs to match file names in all_trait_key
    #     - Msex
    #     - Fsex
    #     - 5OGT
@@ -55,10 +51,8 @@ MAS Pipeline for Vitisgen3 project. It uses the rhAmpseq genotyping data to pred
    #     - AcyAnthocyanin
    #
    # RM_IDV: ~
-   # # can take a list of individuals to "remove" (marks them as contaminants in ex
-   cel report)
-   # # this file needs to be single column, one taxa per line, names matched to hap
-   geno
+   # # can take a list of individuals to "remove" (marks them as contaminants in excel report)
+   # # this file needs to be single column, one taxa per line, names matched to hapgeno
    # # I usually use this to mark the MDS outliers in the final output
    #
    # IDV_MISS: 0.5
