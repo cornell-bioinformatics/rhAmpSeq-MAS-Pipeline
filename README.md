@@ -1,5 +1,5 @@
 # rhAmpSeq-MAS-Pipeline
-MAS Pipeline for Vitisgen3 project. It uses the rhAmpseq genotyping data to predict the presence/absence of desirable alleles of major QTLs.  
+MAS Pipeline for [Vitisgen3 project](https://vitisgen3.umn.edu/). It uses the rhAmpseq genotyping data to predict the presence/absence of desirable alleles of major QTLs.  
 
 #### Required python packages:
 
