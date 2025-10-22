@@ -1,0 +1,36 @@
+# path file for each family hap_genotype will be parsed.
+FAMILY_PATH: ./
+# haplotype path
+MARKER_TRAIT_PATH: path-of-the-directory-all_trait_key
+# each file indicate the desired haplotype
+MARKER_TRAIT_FILE:
+    - Msex
+    - Fsex
+    - 5OGT
+    - Mus
+    - Run1
+    - Ren1
+    - Ren2
+    - Ren3and9
+    - Ren4
+    - Ren6
+    - Ren7
+    - Ren10
+    - Ren11
+    - Ren12
+    - Rpv3-1_2023
+    - Rpv3-2_2023
+    - Rpv3-3_2023
+    - Rpv10L
+    - Rpv12
+    - Rpv33
+    - Seedless
+    - Phylloxera
+    - AcyAnthocyanin
+# remove indv
+RM_IDV: ~
+# indv missing threashold
+IDV_MISS: 0.5
+# name of parents in the matrix (full name in the sample)
+MOTHER_NAMES: ~
+FATHER_NAMES: ~ 
